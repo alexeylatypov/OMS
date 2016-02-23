@@ -1,9 +1,11 @@
 {
     "name": "latypov/yii2-outlook-mobile",
     "description": "Outlook 2007 Mobile Service",
-    "type": "yii2-extension",
-    "keywords": ["yii2","extension"],
-    "license": "GPL-3.0+",
+    "type": "library",
+    "keywords": ["yii2","library","oms"," mobile"],
+    "license": "BSD-2-Clause",
+	"minimum-stability": "dev",
+	"prefer-stable" : true,
     "authors": [
         {
             "name": "latypov",
@@ -17,5 +19,11 @@
         "psr-4": {
             "oms\\": ""
         }
+    },
+	"repositories":[
+    {
+        "type": "git",
+        "url": "https://github.com/alexeylatypov/OMS.git"
     }
+]
 }

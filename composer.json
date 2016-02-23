@@ -1,0 +1,21 @@
+{
+    "name": "latypov/yii2-outlook-mobile",
+    "description": "Outlook 2007 Mobile Service",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "latypov",
+            "email": "alexey.latypov@live.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "oms\\": ""
+        }
+    }
+}
